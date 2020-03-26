@@ -1,4 +1,4 @@
-# ReadME Project 2  |  Jena Brentano
+# Home Sale Price Prediction - Ames, IA  |  Jena Brentano
 ​
 ​
 ## Problem Statement
