@@ -13,6 +13,12 @@ Zillow has provided a dataset describing about 2050 homes with about 80 attribut
 ​
 The data is available in detail here: http://jse.amstat.org/v19n3/decock/DataDocumentation.txt
 ​
+## Methods:
+​
+- Data cleaning, converting categorical features to numerical, feature selection.
+​
+- Used Linear Regression Model and was able to predict home sale prices within $14,000 of actual sale price.
+​
 ## Primary Findings/Conclusions:
 ​
 - Features that are most highly correlated to Sale Price in the given data are: Overall Quality, Ground Floor Living Area, Exterior Quality, Kitchen Quality, Garage Cars (# of cars).
