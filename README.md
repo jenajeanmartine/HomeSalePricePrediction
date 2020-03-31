@@ -5,22 +5,20 @@
 The company, Zillow, needs to improve their predictive home sale price models in general, but here specifically for the city of Ames, Iowa or similar cities with huge growth potential. This will in turn positively affect their bottom line, as they maintain their leading position in the industry by providing reliable information to customers. These customers include prospective home buyers, sellers, real estate agents, and those in other related sectors. Zillow provides important information for prospective home buyers and sellers, and is a powerful platform for advertising or referrals for real-estate agents and service providers. Zillow is also expanding into the physical real estate market. What makes them an excellent resource to it's current customers can also enable a lucrative business model of flipping homes for a profit.
     
 ---
-​
 ## Description of Data
 Zillow has provided a dataset describing about 2050 homes with about 80 attributes which include qualitative and quantitative categories such as Overall Quality, Number of Rooms, Kitchen Quality, Garage Type, Misc. Feature Value, and of course, Sale Price.
     
 ### Data Dictionary
-​
 The data is available in detail here: http://jse.amstat.org/v19n3/decock/DataDocumentation.txt
-​
+
 ## Methods:
-​
+
 - Data cleaning, converting categorical features to numerical, feature selection.
 ​
 - Used Linear Regression Model and was able to predict home sale prices within $14,000 of actual sale price.
-​
+
 ## Primary Findings/Conclusions:
-​
+
 - Features that are most highly correlated to Sale Price in the given data are: Overall Quality, Ground Floor Living Area, Exterior Quality, Kitchen Quality, Garage Cars (# of cars).
 ​
 - Because many of the provided home features are categorical/ordinal, it is important to convert these features using dummy variables or translating to numerical ratings in order to explore their potential uesfulness as predictors in a model.
